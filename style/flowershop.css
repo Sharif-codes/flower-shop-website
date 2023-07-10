@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+.header-banner-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 50px 120px 0px 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.header-img {
+    width: 320px;
+    height: 400px;
+}
+
+.btn {
+    background-color: #E55473;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.bonus {
+    margin-top: 120px;
+    padding: 0px 120px 0px 120px;
+    text-align: center;
+
+}
+
+.bonus-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.bonus-des {
+    margin-top: 30px;
+    padding: 0 200px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bonus-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+
+}
+
+.bonus-img-1 {
+    padding: 70px 30px 0px 30px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px 0 0;
+    width: 250px;
+    height: 290px;
+}
+
+.bonus-img-2 {
+    padding: 70px 30px 20px 30px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 150px 150px 0 0;
+    width: 250px;
+    height: 270px;
+
+}
+
+.bonus-img-3 {
+    padding: 70px 30px 0px 30px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 150px 150px 0 0;
+    width: 250px;
+    height: 290px;
+}
+
+.bonus-pic-des {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 0px 100px;
+}
+
+.bonus-pic-name {
+    color: #272727;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration-line: underline;
+}
