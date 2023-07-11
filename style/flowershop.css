@@ -24,7 +24,7 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 500px;
 }
 
@@ -52,7 +52,7 @@
 .bonus-title {
     color: #272727;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
 }
@@ -109,9 +109,23 @@
 .bonus-pic-name {
     color: #272727;
 
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     text-decoration-line: underline;
+}
+
+.delivery-container {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    padding: 80px 150px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.delivery-des{
+    padding-top: 30px;
 }
 
 .hot-deal-container {
@@ -138,31 +152,106 @@
     font-size: 35px;
     font-style: normal;
 }
-.hot-deal-info{
+
+.hot-deal-info {
     text-align: center;
 }
-.hot-deal-pic{
+
+.hot-deal-pic {
     width: 200px;
 }
-.off{
+
+.off {
     color: #E55473;
 }
 
-.social-media-container{
+.social-media {
+    margin-top: 100px;
+}
+
+.social-media-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    width: 500px;
+}
+
+.social-media-container {
+
     display: flex;
     justify-content: space-around;
     padding: 50px 120px 0px 120px;
-    
-}
-.social-media-content{
-    width: 250px;
-}
-.follow-banner{
-    margin: 50px 130px 0px 130px;
-    background-image: url('../images/Rectangle\ 9.png')
-}
-.follow-info{
-    text-align: center;
-    align-items: center;
+
 }
 
+.social-media-content {
+    width: 250px;
+}
+
+.follow-banner {
+    border-radius: 5px;
+    margin: 100px 130px 0px 130px;
+    background-image: url('../images/Rectangle\ 9.png')
+}
+
+.follow-info {
+    text-align: center;
+    /* align-items: center; */
+    padding: 130px 0 130px 0;
+}
+
+.follow-title {
+    padding: 10px;
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.follow-des {
+    padding-bottom: 35px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.input-box {
+    padding: 10px 20px;
+    border: 0;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 120px 0;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-title>span {
+    color: #E55473;
+    font-size: 35px;
+}
+
+.footer-details {
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    font-size: 15px;
+    width: 500px;
+}
+
+.copyright {
+    padding-top: 25px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+}
