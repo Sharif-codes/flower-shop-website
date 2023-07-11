@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Lato;
 }
 
 .header-banner-container {
@@ -12,7 +13,6 @@
 
 .header-title {
     color: #272727;
-    font-family: Lato;
     font-size: 60px;
     font-style: normal;
     font-weight: 800;
@@ -21,7 +21,6 @@
 
 .header-des {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -46,13 +45,13 @@
     margin-top: 120px;
     padding: 0px 120px 0px 120px;
     text-align: center;
+    font-family: Lato;
 
 }
 
 .bonus-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
@@ -63,7 +62,6 @@
     padding: 0 200px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -110,8 +108,61 @@
 
 .bonus-pic-name {
     color: #272727;
-    font-family: Lato;
+
     font-size: 12px;
     font-style: normal;
     text-decoration-line: underline;
 }
+
+.hot-deal-container {
+    margin-top: 100px;
+    padding: 70px 250px 70px 250px;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    display: flex;
+}
+
+.hot-deal-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.hot-deal-title {
+    padding-bottom: 20px;
+    color: #272727;
+    font-size: 35px;
+    font-style: normal;
+}
+.hot-deal-info{
+    text-align: center;
+}
+.hot-deal-pic{
+    width: 200px;
+}
+.off{
+    color: #E55473;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 120px 0px 120px;
+    
+}
+.social-media-content{
+    width: 250px;
+}
+.follow-banner{
+    margin: 50px 130px 0px 130px;
+    background-image: url('/images/Rectangle\ 9.png')
+}
+.follow-info{
+    text-align: center;
+    align-items: center;
+}
+
