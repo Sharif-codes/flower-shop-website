@@ -39,6 +39,7 @@
     padding: 10px 20px;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .bonus {
@@ -237,8 +238,23 @@
     border-radius: 10px;
     box-shadow:whitesmoke 0px 0px 10px 20px;
 }
+.stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding: 10px;
+    border: 0;
+    margin-right: 10px;
+    box-shadow: 5px 5px rgb(241, 234, 234) ;
+    
+}
+.story-title{
+    padding: 10px 0px;
+}
 footer {
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: black;
     text-align: center;
     padding: 120px 0;
@@ -258,21 +274,6 @@ footer {
     padding-top: 25px;
     font-size: 15px;
     width: 500px;
-}
-.stories{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.text{
-    padding: 10px;
-    border: 0;
-    margin-right: 10px;
-    box-shadow: 5px 5px rgb(241, 234, 234) ;
-    
-}
-.story-title{
-    padding: 10px 0px;
 }
 
 .copyright {
