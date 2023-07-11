@@ -115,7 +115,7 @@
 }
 
 .delivery-container {
-    margin-top: 100px;
+    margin: 100px 120px 0px 120px;
     text-align: center;
     display: flex;
     padding: 80px 150px;
@@ -229,6 +229,15 @@
     margin: 0 5px 0 5px;
 }
 
+.extra-sect-content{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.extra-sect{
+    border-radius: 10px;
+    box-shadow:whitesmoke 0px 0px 10px 20px;
+}
 footer {
     margin-top: 100px;
     background-color: black;
@@ -236,7 +245,9 @@ footer {
     padding: 120px 0;
     color: rgba(255, 255, 255, 0.90);
 }
-
+.footer-title{
+    font-size: 35px;
+}
 .footer-title>span {
     color: #E55473;
     font-size: 35px;
@@ -248,6 +259,20 @@ footer {
     padding-top: 25px;
     font-size: 15px;
     width: 500px;
+}
+.stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding: 10px;
+    border: 0;
+    margin-right: 10px;
+    
+}
+.story-title{
+    padding: 10px 0px;
 }
 
 .copyright {
